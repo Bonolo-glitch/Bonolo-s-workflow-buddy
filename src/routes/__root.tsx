@@ -83,21 +83,25 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "AI Workplace Productivity Assistant" },
+      { title: "AI Workplace Productivity Assistant — Dashboard" },
       {
         name: "description",
         content:
-          "Boost workplace productivity with AI-powered tools for emails, chat assistance, and research — no account required.",
+          "AI-powered tools to simplify communication, research, and everyday professional tasks. No account required.",
       },
       { name: "author", content: "AI Workplace Productivity Assistant" },
-      { property: "og:title", content: "AI Workplace Productivity Assistant" },
+      { property: "og:title", content: "AI Workplace Productivity Assistant — Dashboard" },
       {
         property: "og:description",
         content:
-          "AI-powered tools for professional emails, workplace chat assistance, and research summaries. Private, free, no sign-up.",
+          "AI-powered tools to simplify communication, research, and everyday professional tasks. No account required.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "AI Workplace Productivity Assistant — Dashboard" },
+      { name: "twitter:description", content: "AI-powered tools to simplify communication, research, and everyday professional tasks. No account required." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8e83a1a1-8bd7-481b-9d28-006ef1d38e21/id-preview-a7edd258--7e052af4-04b2-4944-b1b4-9a2537af19dd.lovable.app-1783668475240.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8e83a1a1-8bd7-481b-9d28-006ef1d38e21/id-preview-a7edd258--7e052af4-04b2-4944-b1b4-9a2537af19dd.lovable.app-1783668475240.png" },
     ],
     links: [
       {

@@ -17,7 +17,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "AI Workplace Productivity Assistant — Dashboard" },
       {
         property: "og:description",
-        content: "AI tools for emails, workplace chat, and research summaries. Free and private.",
+        content: "AI-powered tools to simplify communication, research, and everyday professional tasks. No account required.",
       },
     ],
   }),
